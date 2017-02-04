@@ -1,0 +1,237 @@
+body {
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h2, h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    margin: 15px;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 5px;
+
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	font-size: 35px;
+	text-align: center;
+}
+
+p {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow-wrap: break-word;
+	line-height: 25px;
+	padding: 10px;
+	color: #666666;
+}
+a {
+	text-decoration: none;
+	color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+li {
+	display: inline;
+	padding: 15px;
+}
+
+.wrapper{
+	margin:0 auto;
+	overflow:hidden;
+	float:left;
+}
+
+#message{
+	width: 95%;
+	height: 300px;
+}
+
+.header {
+	border-bottom: solid;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	height: 10%;
+	width: 100%;
+	position: fixed;
+  	right: 0;
+  	top: 0;
+  	left: 0;
+  	padding: 1rem;
+  	z-index: 1;
+
+}
+
+.name {
+	background-color: #4aaaa5;
+	float: left;
+	height: 15%;
+	width: 20%;
+	padding: 38px;
+	margin-left: 30px;
+	
+}
+
+.pages {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	float: right;
+	margin-top: 40px;
+	width: 35%;
+	position: relative;
+	margin-right: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#content {
+	padding-top:150px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.mainbox {
+	float: left;
+	border: solid 1px #eee;
+	width: 650px;
+	background: #fff;
+	margin-left: 45px;
+	margin-bottom: 15px;
+	display: inline;
+}
+
+.mainbox img {
+	float: left;
+	margin: 10px;
+	width: 250px;
+	height: 70%;
+	
+}
+.form {
+	padding-left: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.social {
+	border: solid 1px #eee;
+	width: 270px;
+	background-color: #fff;
+	margin-left: 75px;
+	float: right;
+	display: inline;
+}
+
+.social img{
+	width: 45px;
+	padding: 20px;
+
+}
+
+.port1 img, 
+.port2 img, 
+.port3 img, 
+.port4 img, 
+.port5 img, 
+.port6 img {
+	width: 200px;
+	margin-left: 55px;
+	border: 1px solid black;
+	z-index: 2;
+}
+
+.banner {
+	border: 1px solid black;
+	position: absolute; 
+	top: 375px; 
+	left: 100px; 
+	width: 200px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #eee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.banner2 {
+	border: 1px solid black;
+	position: absolute; 
+	top: 375px; 
+	left: 369px; 
+	width: 200px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #eee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.banner3 {
+	border: 1px solid black;
+	position: absolute; 
+	top: 600px; 
+	left: 100px; 
+	width: 200px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #eee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.banner4 {
+	border: 1px solid black;
+	position: absolute; 
+	top: 600px; 
+	left: 367px; 
+	width: 200px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #eee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+.banner5 {
+	border: 1px solid black;
+	position: absolute; 
+	top: 820px; 
+	left: 100px; 
+	width: 200px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #eee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+.banner6 {
+	border: 1px solid black;
+	position: absolute; 
+	top: 820px; 
+	left: 368px; 
+	width: 200px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #eee;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+.footer {
+	background-color: #666666;
+	clear: both;
+  	bottom: 0;
+  	padding: 1rem;
+	text-align: center;
+	width: 100%;
+	border-top: solid 3px #4aaaa5;
+	height: 30px;
+	margin-top: 10px;
+}
