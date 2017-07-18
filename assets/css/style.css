@@ -140,6 +140,11 @@ h3,
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
+  transition: all .2s ease-in-out;
+}
+
+.social:hover { 
+  transform: scale(1.1); 
 }
 
 .social:last-child {
@@ -197,6 +202,7 @@ h3,
   background: #4aaaa5;
   border-bottom: 0;
 }
+
 
 .auth-image {
   width: 300px;
